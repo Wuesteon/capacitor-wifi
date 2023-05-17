@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digaus.capwifi.capacitorwifi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:5:7-81
+11-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:5:24-78
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:6:7-78
+12-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:6:24-75
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:7:7-78
+13-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:7:24-75
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:8:7-81
+14-->/Users/wf/GIT/primeo-energie-app/node_modules/capacitor-wifi/android/src/main/AndroidManifest.xml:8:24-78
+15
+16</manifest>

@@ -1,0 +1,55 @@
+{
+
+  "bugs": {
+    "url": "https://github.com/Wuesteon/capacitor-wifi/issues"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "description": "Capacitor Wifi Plugin",
+  "devDependencies": {
+    "@capacitor/android": "^3.0.0",
+    "@capacitor/core": "^3.0.0",
+    "@capacitor/ios": "^3.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^2.21.0",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "CapacitorWifi.podspec"
+  ],
+  "homepage": "https://github.com/Wuesteon/capacitor-wifi#readme",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "wifi"
+  ],
+  "license": "MIT",
+  "main": "dist/esm/index.js",
+  "name": "capacitor-wifi",
+  "peerDependencies": {
+    "@capacitor/core": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wuesteon/capacitor-wifi.git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc && rollup -c rollup.config.js",
+    "clean": "rimraf ./dist",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "types": "dist/esm/index.d.ts",
+  "version": "0.0.2"
+}

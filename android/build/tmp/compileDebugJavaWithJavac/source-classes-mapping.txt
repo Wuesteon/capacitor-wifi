@@ -1,0 +1,12 @@
+com/digaus/capwifi/Wifi.java
+ com.digaus.capwifi.Wifi
+com/digaus/capwifi/WifiService.java
+ com.digaus.capwifi.WifiService
+ com.digaus.capwifi.WifiService$1
+ com.digaus.capwifi.WifiService$2
+ com.digaus.capwifi.WifiService$3
+ com.digaus.capwifi.WifiService$4
+ com.digaus.capwifi.WifiService$ConnectAsync
+ com.digaus.capwifi.WifiService$ScanSyncContext
+com/digaus/capwifi/capacitorwifi/BuildConfig.java
+ com.digaus.capwifi.capacitorwifi.BuildConfig
